@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+    
+}
+.social{
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.topBarMain{
+    background: #0000000d;
+}
+.container1{
+    width: 925px;
+    padding-right: 17px;
+    padding-left: 15px;
+    margin: auto;
+}
+.phone{
+    width: 176px;
+    float: left;
+    padding: 16px 25px;
+    border-left:1px solid black;
+    padding-top: 20px;
+}
+.phone img {
+    margin-right: 10px;
+}
+.email {
+    float: left;
+    width: 315px;
+    padding: 18px 26px;
+    border-left: 1px solid black;
+}
+.email img{
+    margin-right: 16px;
+}
+
+.facebook {
+    float: left;
+    padding: 19px 20px;
+    border-left: 1px solid black;
+}
+
+.twitter {
+    float: left;
+    border-left: 1px solid black;
+    padding: 17px 18px;
+}
+.instagram{
+    float: left;
+    padding: 19px 19px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.menu {
+    width: 1230px;
+    float: left;
+}
+
+ul.MainMenuItem {
+    list-style: none;
+    float: right;
+    margin-left: 340px;
+}
+
+ul.MainMenuItem li {
+    float: left;
+}
+ul.MainMenuItem li a {
+    text-decoration: none;
+    font-family: osworld;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: block;
+    padding: 30px;
+    color: #151515;
+    font-weight: 600;
+    transition: 0.5s;
+}
+ul.MainMenuItem li a:hover{
+    color: #ff5200;
+}
+#homeSlider{
+    background: url(./SAVE_20210821_211935.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    background-size: cover;
+
+} 
+.slidercontent {
+    color: white;
+    width: 611px;
+    padding: 20px 225px;
+}
+
+.slidercontent h1 {
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 130px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+.slidercontent p {
+    font-weight: 300;
+    line-height: 45px;
+    width: 1140px;
+    margin-bottom: 180px;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+.slidercontent h1:hover{
+    color: #fb5200;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#sliderWorkbutton{
+    width: 190px;
+    color: white;
+    margin-bottom: 90px;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 18px;
+    background: #fb5200;
+    border: none;
+}
+#sliderWorkbutton:hover{
+    background: black;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#Home{
+    background: #badfd8c4;
+}
+.SuchAs{
+    overflow: hidden;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+.SuchAs p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+}
+.singleBox{
+    width: 230px;
+    background: white;
+    padding: 35px 28px;
+    float: left;
+    margin-left: 230px;
+    transition:0.5s;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.singleBox:hover{  
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+.singleBox2{
+    width: 225px;
+    background: white;
+    padding: 8px 41px;
+    float: left;
+    margin-left: 65px;
+    transition:0.5s;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.singleBox2:hover{
+    
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+.singleBox3{
+    width: 237px;
+    background: white;
+    padding: 52px 30px;
+    float: left;
+    margin-left: 65px;
+    transition:0.5s;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.singleBox3:hover{
+    
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+.singleBox4{
+    width: 237px;
+    background: white;
+    padding: 69px 30px;
+    float: left;
+    margin-left: 65px;
+    transition:0.5s;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.singleBox4:hover{
+    
+    background:black;
+    color: white;
+    cursor: pointer;
+}
+#Intro{
+    background:rgb(235, 241, 232);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.aboutus button{
+    width: 139px;
+    padding: 20px 22px;
+    font-size: 20px;
+    background: #fb5200;
+    border: none;
+    margin-left: 872px;
+    margin-bottom:100px;
+    border-radius: 15px;
+    margin-top: 70px;
+}
+.aboutus a{
+    color: white;
+    text-decoration: none;
+}
+
+.aboutus button:hover{
+    background: rgb(15, 15, 15);      
+    color: black;
+    transition:  0.9s;
+    border-radius:15px;
+    cursor: pointer;
+    transform: rotate(360deg);
+} 
+
+#myself{
+    background: url(./benar.png);
+    background-position: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.static{
+   
+    color: white;
+    padding: 200px 160px;
+}
+.static h2 p{
+    transition: 0.10s;
+    font-weight: 300;
+    font-size: 25px;
+}
+.static h1{
+    font-size:50px;
+    font-weight: 400;
+}
+.static h1:hover{
+    color: #fb5200;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.details button{
+    width: 175px;
+    padding: 22px 10px;
+    font-size: 20px;
+    background: #fb5200;
+    border: none;
+    margin-left: 160px;
+    border-radius: 15px;
+    margin-top: -141px;
+}
+.details a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.details button:hover{
+    background: black;
+    color: white;
+    transition: 0.5s;
+}
+#aboutwork{
+    background: rgb(148, 243, 227);
+}
+.workname{
+    overflow: hidden;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+.workname h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+.primarywork{
+    width: 225px;
+    padding: 8px 41px;
+    float: left;
+    margin-left: 180px;
+    transition:0.5s;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.primarywork img{
+    width: 140px;
+    border-radius: 45px;
+}
+.primarywork h2 {
+    font-size: 22px;
+    font-weight: 400;
+}
+.middlework{
+    width: 250px;
+    padding: 0px 35px;
+    float: left;
+    margin-left: 60px;
+    transition:0.5s;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 65px;
+}
+.middlework img {
+    width: 100px;
+}
+.middlework h2 {
+    font-size: 22px;
+    font-weight: 400;
+}
+.higherwork{
+    width: 250px;
+    padding: 0px 35px;
+    float: left;
+    margin-left: 60px;
+    transition:0.5s;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 65px;
+}
+.higherwork img {
+    width: 140px;
+    border-radius: 35px;
+}
+
+.higherwork h2 {
+    font-size: 22px;
+    font-weight: 400;
+}
+.higherwork2{
+    width: 250px;
+    padding: 0px 35px;
+    float: left;
+    margin-left: 60px;
+    transition:0.5s;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 65px;
+}
+.higherwork2 img {
+    border-radius: 45px;
+    width: 210px;
+}
+.higherwork2 h2 {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#loginform{
+    background: white;
+}
+.formbutton input  {
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.loginbutton{
+    background:linear-gradient(#09f773,#029802)  !important;
+    color:black;
+    width: 130px;
+    cursor:pointer;
+    padding: 22px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 45px;
+}
+#detailsfreelancing{
+    background: url(./SAVE_20210821_211858.jpg); 
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%; 
+}
+.example{
+    overflow: hidden;
+}
+.explain1{
+    width: 357px;
+    background: white;
+    padding: 35px 28px;
+    float: left;
+    margin-left: 235px;
+    transition:0.5s;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.boxDec p {
+    font-size: 15px;
+}
+
+.boxtitle h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.explain2{
+    width: 283px;
+    background: white;
+    padding: 47px 45px;
+    float: left;
+    margin-left: 95px;
+    transition:0.5s;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.explain3{
+    width: 315px;
+    background: white;
+    padding: 47px 45px;
+    float: left;
+    margin-left: 90px;
+    transition:0.5s;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.explain4{
+    width: 323px;
+    background: white;
+    padding: 45px 41px;
+    float: right;
+    margin-right: 277px;
+    transition:0.5s;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+.explain5{
+    width: 323px;
+    background: white;
+    padding: 35px 26px;
+    float: right;
+    margin-right: 89px;
+    transition:0.5s;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+.explain6{
+    width: 323px;
+    background: white;
+    padding: 44px 45px;
+    float: right;
+    margin-right: 91px;
+    transition:0.5s;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+
+.formbutton {
+    text-align: center;
+}
+.container2{
+    width: 1615px;
+    overflow: hidden;
+}
+.basic{
+    float: left;
+    margin-left: 244px;
+}
+.inbox1 input{
+    text-align: center;
+    display:block;
+    padding:20px;
+    background:#F2F2F2;
+    margin-bottom:20px;
+    outline:none;
+    border:none;
+    font-size:16px;
+    width: 500px;
+    display: block;
+   
+}
+.inbox1 h2{
+    font-weight: 300;  
+}
+.inbox2 input{
+    text-align: center;
+    display:block;
+    padding: 33px 0px 90px;
+    background:#F2F2F2;
+    margin-bottom:20px;
+    outline:none;
+    border:none;
+    font-size:16px;
+    width: 500px;
+    
+}
+.inbox2 h2{
+    font-weight: 300;
+   
+}
+.option button{
+    background:#fb5200;
+    color:white;
+    border: none;
+    width: 165px;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 21px;
+}
+.option{
+    
+    margin-bottom: 50px;
+    font-size: 16px;
+
+}
+.option button:hover{
+    color: white;
+    background: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.vedio{   
+    margin-left: 1213px;  
+}
+   
